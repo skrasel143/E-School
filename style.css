@@ -1,0 +1,123 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+/* Top part */
+.top-part{
+    background: #F0FFF0;
+}
+
+.container{
+    margin-bottom: 50px;
+}
+.row{
+    padding-bottom: 50px;
+}
+.navbar-brand img{
+    height: 60px;
+}
+.navbar-link{
+    padding-right: 10px;
+}
+.nav-link:hover{
+    background: #21B573;
+    color: #fff;
+    padding: 3px;
+    border-radius: 10px;
+}
+.text .ready{
+    color: rgb(219, 78, 78);
+}
+span{
+    color: #21B573;
+}
+.get-started{
+    background:  #21B573;
+    color: #fff;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+}
+.get-started:hover{
+    box-shadow: 3px 3px 10px rgb(67, 8, 228);
+    padding: 7px 25px;
+    transition: .5s;
+}
+/* Card Deck */
+.card{
+    align-items: center;
+    background: rgb(246, 252, 253);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px gray;
+}
+.card:hover{
+    box-shadow: none;
+    background: #fff;
+    transition: .5s;
+}
+.card img{
+    width: 25%;
+    height: 40%;
+    padding-top: 10px;
+}
+/* Online Courses */
+.online{
+    text-align: center;
+    margin: 90px 0px 40px 0px;
+}
+.course{
+    padding: 0;
+    height: 500px;
+    border-radius: 20px;
+}
+.card-title2{
+    padding: 30px 60px 0px 0px;
+}
+.course img{
+    width: 80%;
+    height: 50%;
+}
+.card-footer, .left{
+    font-size: 15px;
+    background: rgb(246, 252, 253);
+    padding: 10px 50px 5px 0px;
+    border: none;
+}
+.card-footer, .right{
+    font-size: 15px;
+    background: rgb(246, 252, 253);
+    padding: 10px 0px 5px 20px;
+    border: none;
+}
+/* Testimonial */
+.test{
+    height: 400px;
+    margin-top: 80px;
+}
+.test p{
+    font-size: 13px;
+    padding-top: 20px;
+}
+.man img{
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
+/* Last Part (footer) */
+.last-part{
+    background: #111;
+}
+.para-1{
+    color: rgb(182, 179, 179);
+    padding-left: 100px;
+}
+.parent a{
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+}
+.parent a:hover{
+    color: #fff;
+}

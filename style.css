@@ -79,17 +79,19 @@ span{
     width: 80%;
     height: 50%;
 }
-.card-footer, .left{
-    font-size: 15px;
+.bottom{
+    position: relative;
     background: rgb(246, 252, 253);
-    padding: 10px 50px 5px 0px;
+    padding-bottom: 20px;
     border: none;
 }
-.card-footer, .right{
-    font-size: 15px;
-    background: rgb(246, 252, 253);
-    padding: 10px 0px 5px 20px;
-    border: none;
+.left{
+    font-size: 14px;
+    margin-right: 50px;
+}
+.right{
+    font-size: 14px;
+    margin-left: 30px;
 }
 /* Testimonial */
 .test{
